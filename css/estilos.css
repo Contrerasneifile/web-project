@@ -1,0 +1,541 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Roboto;
+}
+
+.contenedor {
+    /* Imagen de fondo */
+    background: url(https://images.pexels.com/photos/3713476/pexels-photo-3713476.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
+    /* Ajustar tamaño de la imagen de fondo */
+    background-size: cover;
+    height: 130vh;
+}
+
+.contenedor .eslogan {
+    padding: 130px 0;
+    width: 60%;
+    margin: auto;
+}
+
+.contenedor .eslogan h1 {
+    color: rgb(255, 255, 255);
+    font-family: sans;
+    font-weight: 100;
+    font-size: 64px;
+}
+
+.logo {
+    color: rgb(255, 255, 255);
+    font-family: sans;
+    font-size: 35px;
+    margin-top: -5px;
+    margin-left: -30%;
+    position: absolute;
+}
+
+header {
+    text-align: end;
+    padding: 40px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.164);
+}
+
+header a {
+    text-decoration: none;
+    padding: 10px;
+    color: rgb(255, 255, 255);
+    transition: .2s;
+}
+
+header a:hover {
+    color: rgb(212, 212, 212);
+}
+
+header a img {
+    width: 10px;
+}
+
+.contenedor .caja {
+    background-color: rgb(0, 0, 0);
+    color: rgb(128, 128, 128);
+    padding: 20px;
+    height: 60px;
+}
+
+.contenedor .caja p {
+    width: fit-content;
+}
+
+.contenedor .inf {
+    width: fit-content;
+    position: relative;
+    top: -15px;
+    left: 72%;
+}
+
+.contenedor .inf a {
+    text-decoration: none;
+    color: rgb(128, 128, 128);
+    padding: 0 10px;
+    transition: .2s;
+}
+
+.contenedor .inf a:hover {
+    color: rgb(94, 94, 94);
+}
+
+table {
+    border-collapse: collapse;
+    margin: auto;
+    position: relative;
+    top: 80px;
+    width: 95vw;
+    height: 25vh;
+    text-align: center;
+    color: rgb(255, 255, 255);
+}
+
+table td {
+    width: 100px;
+    line-height: 2;
+}
+
+table a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-weight: 700;
+}
+
+.contenido {
+    font-family: 'Playfair Display';
+    padding: 90px;
+}
+
+.contenido .primario {
+    width: 35%;
+    float: left;
+}
+
+.contenido .primario p {
+    font-family: 'Playfair Display', serif;
+    font-weight: 400;
+    font-style: italic;
+}
+
+.contenido .secundario {
+    float: right;
+    width: 65%;
+}
+
+.contenido .secundario h2 {
+    font-family: 'Playfair Display';
+    font-weight: 100;
+    font-size: 34px;
+    padding: 0 50px;
+}
+
+.contenido .cajasecundario {
+    padding: 50px;
+    width: 80%;
+    margin: auto;
+}
+
+.secundario .subsecundario {
+    width: 53%;
+    float: left;
+}
+
+.contenido .terciario {
+    float: left;
+}
+
+.contenido .terciario h3 {
+    font-size: 48px;
+    font-family: 'Playfair Display';
+    font-weight: 100;
+}
+
+.contenido .terciario .parrafo p {
+    font-family: 'Playfair Display';
+    padding: 50px 0;
+}
+
+.contenido .parrafo {
+    font-family: 'Playfair Display';
+    font-size: 15px;
+    width: 35%;
+    float: left;
+}
+
+.terciario .img {
+    float: right;
+    width: 60%;
+}
+
+.terciario .img img {
+    width: 100%;
+}
+
+.frase {
+    font-family: 'Playfair Display';
+    font-style: italic;
+    font-size: 40px;
+    width: 50%;
+    position: absolute;
+    margin-left: 148px;
+    color: #AD9A6D;
+}
+
+.seccion3 {
+    width: 100vw;
+    height: 100vh;
+    background: #111111;
+    color: rgb(255, 255, 255);
+}
+
+.seccion3 div {
+    margin: auto;
+}
+
+.seccion3 h3 {
+    font-family: 'Playfair Display';
+    font-weight: 100;
+    font-size: 45px;
+    padding: 100px 100px 50px 100px;
+}
+
+.seccion3 .p3 {
+    color: #cccccc;
+    font-size: 12px;
+    width: 85%;
+}
+
+.seccion3 .img-s3 {
+    position: relative;
+    top: 100px;
+    left: 50%;
+}
+
+.seccion3 .img-s3 img {
+    padding: 5px;
+    width: 25%;
+}
+
+.seccion3 .num svg {
+    width: 50px;
+}
+
+.seccion3 .num {
+    width: fit-content;
+    margin-left: 71.5%;
+}
+
+.seccion4 {
+    padding: 250px 30px;
+}
+
+.seccion4 h3 {
+    font-size: 50px;
+    font-family: 'Playfair Display';
+    font-weight: 100;
+}
+
+.subcaja1,
+.subcaja2 {
+    width: 35%;
+    padding: 50px;
+    position: relative;
+    top: 10px;
+    left: 35%;
+}
+
+.subcaja1 p,
+.subcaja2 p {
+    font-family: 'Playfair Display';
+    font-weight: 100;
+}
+
+.subcaja1 {
+    float: left;
+}
+
+.subcaja2 {
+    float: right;
+    left: 30px;
+}
+
+.seccion5 .sec5-img {
+    float: left;
+}
+
+.seccion5 .text5 {
+    position: relative;
+    top: 250px;
+    left: 100px;
+}
+
+.seccion5 .text5 h4 {
+    font-family: 'Playfair Display';
+    font-weight: 100;
+    font-size: 36px;
+}
+
+.seccion5 .text5 span {
+    font-weight: 600;
+}
+
+.seccion5 .text5 p {
+    font-family: 'Playfair Display';
+    font-weight: 100;
+    font-size: 20px;
+}
+
+.text5 div {
+    width: 400px;
+    float: right;
+    position: relative;
+    left: -370px;
+}
+
+.seccion6 {
+    padding: 250px 30px;
+}
+
+.seccion6 h3 {
+    font-size: 50px;
+    font-family: 'Playfair Display';
+    font-weight: 100;
+}
+
+.subcaja1,
+.subcaja2 {
+    width: 35%;
+    padding: 50px;
+    position: relative;
+    top: 10px;
+    left: 35%;
+}
+
+.subcaja1 p,
+.subcaja2 p {
+    font-family: 'Playfair Display';
+    font-weight: 100;
+}
+
+.subcaja1 {
+    float: left;
+}
+
+.subcaja2 {
+    float: right;
+    left: 30px;
+}
+
+.seccion7 {
+    padding: 100px;
+    text-align: end;
+    line-height: 2;
+    position: relative;
+    border-top: 1px solid rgba(0, 0, 0, 0.103);
+    border-bottom: 1px solid rgba(0, 0, 0, 0.103);
+}
+
+.seccion7 div {
+    width: fit-content;
+    left: 100%;
+}
+
+.seccion7 h4 a {
+    font-family: 'Playfair Display';
+    font-weight: 100;
+    font-size: 25px;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+}
+
+.seccion8 {
+    padding: 90px 100px 200px 100px;
+    position: relative;
+}
+
+.seccion8 h4 {
+    font-size: 25px;
+    font-family: 'Playfair Display';
+    font-weight: 100;
+}
+
+.seccion8 .texto {
+    float: left
+}
+
+.seccion8 .inscribirse {
+    float: right;
+}
+
+.inscribirse #submit {
+    padding: 15px;
+    width: 130px;
+    border-radius: 0;
+    font-weight: 900;
+    color: #fff;
+    background: #000;
+    cursor: pointer;
+}
+
+.inscribirse #ctext {
+    padding: 15px;
+    width: 300px;
+    font-weight: 900;
+    border-radius: 0;
+    border: 1px solid rgba(0, 0, 0, 0.178);
+    outline: none;
+    transition: .3s;
+}
+
+.inscribirse #ctext:focus {
+    border: 1px solid rgba(0, 0, 0, 0.267);
+}
+
+.inscribirse span {
+    font-family: 'Playfair Display';
+}
+
+.seccion8 .galeria {
+    width: 100%;
+    height: 900px;
+    display: inline-block;
+}
+
+.galeria img {
+    width: 221px;
+    height: 182.92px;
+}
+
+footer {
+    background: #111111;
+}
+
+footer .menubajo {
+    padding: 60px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.137);
+}
+
+footer .menubajo li {
+    display: inline-block;
+    list-style: none
+}
+
+footer .menubajo a {
+    color: #fff;
+    font-weight: 900;
+    text-decoration: none;
+    padding: 3px 10px;
+    border-right: 1px solid rgba(255, 255, 255, 0.137);
+    transition: .3s;
+}
+
+footer .menubajo a:hover {
+    color: rgb(131, 131, 131);
+}
+
+.logo2 {
+    background: #111111;
+    width: 40%;
+    float: left;
+}
+
+.logofooter {
+    color: rgb(255, 255, 255);
+    font-family: sans;
+    font-size: 35px;
+    padding: 110px 0px 20px 60px;
+}
+
+.enlacesfooter {
+    background: #111111;
+    height: 73vh;
+}
+
+.enlacesfooter span {
+    padding: 50px;
+    color: #fff;
+    font-size: 22px;
+    font-family: 'Playfair Display';
+}
+
+.enlacesfooter li {
+    list-style: none;
+    padding: 10px;
+}
+
+.enlacesfooter a {
+    color: rgba(255, 255, 255, 0.664);
+    text-decoration: none;
+    font-size: 12px;
+}
+
+.enlacesfooter a:hover {
+    text-decoration: underline;
+}
+
+.enlacesfooter b {
+    position: relative;
+    transition: .5s;
+}
+
+.enlacesfooter b:hover {
+    left: 5px;
+}
+
+.minicontainer {
+    width: fit-content;
+    position: relative;
+    top: -90px;
+    left: 43%;
+}
+
+.minicontainer2 {
+    width: fit-content;
+    position: relative;
+    top: -248.8px;
+    left: 57.5%;
+}
+
+.minicontainer3 {
+    width: fit-content;
+    position: relative;
+    top: -400px;
+    left: 79.5%;
+}
+
+.minicontainer3 li {
+    color: rgba(255, 255, 255, 0.664);
+}
+
+.minicontainer3 #a {
+    color: #fff;
+}
+
+.extras {
+    color: rgba(255, 255, 255, 0.664);
+    position: relative;
+    top: 200px;
+    left: -73rem;
+    padding: 20px;
+    border-top: 1px solid rgba(255, 255, 255, 0.664);
+    width: 95vw;
+}
+
+.redes-sociales {
+    position: relative;
+    top: -20px;
+    left: 90%;
+    width: fit-content;
+}
+
+.redes-sociales i {
+    color: #fff;
+    font-size: 20px;
+    padding: 0 10px;
+}
